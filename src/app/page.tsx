@@ -1,0 +1,138 @@
+import Link from "next/link";
+import Image from "next/image";
+import MaterialIcon from "@/components/MaterialIcon";
+
+export const metadata = { title: "Home" };
+
+export default function HomePage() {
+  return (
+    <div className="py-10 px-6 sm:px-12 w-full max-w-6xl mx-auto flex flex-col gap-12 z-10">
+      {/* AI Abstract Block */}
+      <section className="w-full border-l-2 border-primary bg-surface/40 backdrop-blur-sm p-4 shadow-sm">
+        <div className="flex items-start gap-3">
+          <MaterialIcon icon="terminal" className="text-primary text-sm mt-1" filled />
+          <p className="font-mono text-sm text-text-muted leading-relaxed uppercase tracking-wider">
+            <span className="text-primary mr-2">SYS_MSG:</span>
+            JShaner Ventures operates at the intersection of traditional search architecture and emerging AI models. By mapping semantic relationships and structuring unstructured data, we build scalable digital infrastructure for small businesses. Core competencies include Answer Engine Optimization (AEO), localized generative AI tooling, and programmatic workflow automation. Execution over theory.
+          </p>
+        </div>
+      </section>
+
+      {/* SYSTEM.INIT Hero Section */}
+      <section className="w-full glass-panel relative overflow-hidden p-0">
+        <div className="system-init-bg absolute inset-0 opacity-40" />
+        <div className="relative z-10 p-12 flex flex-col md:flex-row items-center gap-12 min-h-[400px]">
+          <div className="flex-1 flex flex-col gap-6">
+            <div className="flex items-center gap-4">
+              <span className="font-mono text-xs text-primary tracking-[0.3em] uppercase bg-primary/10 px-2 py-1 border border-primary/20">
+                System.Init
+              </span>
+              <div className="h-px flex-1 bg-primary/20" />
+            </div>
+            <h1 className="text-text-main text-[48px] md:text-[56px] font-mono font-medium leading-[1.1] tracking-[-0.03em]">
+              Engineered Growth <br />
+              <span className="text-primary">Infrastructure.</span>
+            </h1>
+            <p className="text-text-muted text-lg max-w-xl font-sans leading-relaxed">
+              Precision AI integration, advanced search optimization, and technical blueprinting for scalable small business architecture.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4">
+              <Link
+                href="/services"
+                className="bg-primary text-background font-bold text-xs uppercase tracking-widest px-8 py-4 border border-primary hover:bg-transparent hover:text-primary transition-all duration-300 flex items-center gap-3"
+              >
+                Initialize Services
+                <MaterialIcon icon="arrow_forward" className="text-[18px]" />
+              </Link>
+              <Link
+                href="/vault"
+                className="bg-transparent text-text-main font-bold text-xs uppercase tracking-widest px-8 py-4 border border-grid-line hover:border-primary transition-all duration-300 flex items-center gap-3 group"
+              >
+                Access Vault
+                <MaterialIcon icon="lock_open" className="text-[18px] group-hover:text-primary" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Logo Graphic */}
+          <div className="hidden lg:flex w-1/3 flex-col items-center justify-center gap-4 relative translate-x-[-12px] translate-y-[24px]">
+            <div className="w-80 relative flex items-center justify-center">
+              <div className="absolute inset-0 border border-primary/20 rotate-45 animate-[pulse_6s_ease-in-out_infinite]" />
+              <div className="relative z-10 w-full p-4 overflow-hidden flex items-center justify-center">
+                <Image
+                  src="/images/logo-main.png"
+                  alt="JShaner Ventures Logo"
+                  width={883}
+                  height={850}
+                  className="w-full h-auto object-contain filter drop-shadow-[0_0_15px_rgba(56,189,248,0.3)]"
+                />
+              </div>
+              <div className="absolute -top-2 -left-2 w-4 h-4 border-t-2 border-l-2 border-primary" />
+              <div className="absolute -bottom-2 -right-2 w-4 h-4 border-b-2 border-r-2 border-primary" />
+            </div>
+            <div className="font-mono text-[10px] text-primary/60 tracking-widest uppercase mt-4">
+              Node_Calibration_Complete
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Operational Ethos & Bio */}
+      <section className="w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch pt-8 border-t border-grid-line/50">
+        {/* Military Context */}
+        <div className="lg:col-span-5 flex flex-col gap-6">
+          <div className="bg-surface/30 border border-grid-line p-8 relative overflow-hidden group glow-hover transition-all">
+            <div className="absolute top-0 right-0 p-4 opacity-10">
+              <MaterialIcon icon="military_tech" className="text-6xl" />
+            </div>
+            <h3 className="font-mono text-xs text-primary uppercase tracking-widest mb-4">
+              Operational Doctrine
+            </h3>
+            <h2 className="text-text-main text-2xl font-semibold mb-4">
+              The Military Leadership Advantage
+            </h2>
+            <p className="text-text-muted text-sm leading-relaxed mb-6 font-sans">
+              The firm&apos;s technical approach is forged in high-stakes environments. Jonathan Shaner&apos;s background as a{" "}
+              <strong>US Army Airborne Infantry Veteran, Purple Heart recipient</strong> dictates an objective-oriented methodology defined by:
+            </p>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <MaterialIcon icon="check_circle" className="text-primary text-lg" />
+                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">Disciplined Architecture</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <MaterialIcon icon="radar" className="text-primary text-lg" />
+                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">Objective-Oriented Consulting</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <MaterialIcon icon="target" className="text-primary text-lg" />
+                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">High-Stakes Precision</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Founder Bio */}
+        <div className="lg:col-span-7 flex flex-col justify-center gap-6">
+          <div className="flex items-center gap-3 border-b border-grid-line pb-4">
+            <MaterialIcon icon="shield_person" className="text-primary" />
+            <h2 className="text-text-main text-2xl font-semibold tracking-[-0.02em]">Principal Consultant</h2>
+          </div>
+          <div className="prose prose-invert max-w-none">
+            <p className="text-text-main text-lg leading-relaxed font-sans">
+              Jonathan Shaner is a self-taught developer and veteran whose transition from battlefield leadership to digital infrastructure brings a unique rigor to technical training.
+            </p>
+            <p className="text-text-muted text-base leading-relaxed font-sans mt-4">
+              Currently focused on pragmatic AI tooling and foundational local business empowerment, with a strategic roadmap toward future GovCon deployments. Our methodology prioritizes functional utility over vanity metrics, ensuring systems are built for resilience, scalability, and total data sovereignty.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-3 mt-4">
+            <span className="px-4 py-1.5 bg-surface/50 border border-grid-line font-mono text-[10px] text-primary uppercase tracking-widest">Strategy</span>
+            <span className="px-4 py-1.5 bg-surface/50 border border-grid-line font-mono text-[10px] text-primary uppercase tracking-widest">Architecture</span>
+            <span className="px-4 py-1.5 bg-surface/50 border border-grid-line font-mono text-[10px] text-primary uppercase tracking-widest">Deployment</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

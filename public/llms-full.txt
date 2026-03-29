@@ -1,0 +1,114 @@
+# JShaner Ventures — Full Site Content
+> Precision AI integration, advanced search optimization, and technical blueprinting for scalable small business architecture.
+
+---
+
+## Company Overview
+
+JShaner Ventures operates at the intersection of traditional search architecture and emerging AI models. By mapping semantic relationships and structuring unstructured data, we build scalable digital infrastructure for small businesses. Core competencies include Answer Engine Optimization (AEO), localized generative AI tooling, and programmatic workflow automation. Execution over theory.
+
+---
+
+## About the Founder
+
+Jonathan Shaner is a self-taught developer and US Army Airborne Infantry veteran (11B3P). Two tours to Iraq. Purple Heart recipient — wounded in Baghdad. His transition from battlefield leadership to digital infrastructure brings a unique rigor to technical consulting.
+
+Currently focused on pragmatic AI tooling and foundational local business empowerment, with a strategic roadmap toward future Government Contracting (GovCon) deployments. Methodology prioritizes functional utility over vanity metrics, ensuring systems are built for resilience, scalability, and total data sovereignty.
+
+Specializations: Strategy, Architecture, Deployment
+Foundation: Military Leadership (Staff Sergeant Squad Leader, Airborne)
+Location: Pennsylvania, United States
+
+---
+
+## Services
+
+### Vector 01: Search Optimization (SEO/AEO)
+Schema markup, semantic HTML, and LLM-targeted content structuring for machine-readable data.
+- Semantic Architecture
+- Answer Engine Readiness
+- Structured Data Implementation
+
+### Vector 02: AI Integration
+Local LLM deployment, API-driven automations, and data sanitization for operational efficiency.
+- Workflow Automation
+- Private LLM Deployment
+- API Orchestration
+
+### Vector 03: Technical Training
+Upskilling local business teams on prompt engineering, digital hygiene, and AI tooling.
+- Prompt Engineering Basics
+- Security & Hygiene Protocols
+- Tool Adoption Strategies
+
+### Training Curriculum
+1. Practical AI implementation for daily workflows (Email, Reports, Data analysis)
+2. Tool-specific training (ChatGPT, Claude, Midjourney, Local LLMs)
+3. Identifying and mitigating AI hallucinations and data leaks
+4. Building custom GPT assistants for specific business units
+
+---
+
+## Vault — Operational Assets
+
+### SEO Node Restructure [ACTIVE] [SCRIPTS]
+Automated Python script to audit and restructure local business markup for Answer Engine Optimization.
+
+### Customer Service AI [BUILD] [AI_TOOLS]
+Fine-tuned LLM model setup for handling Tier 1 local service inquiries and appointment scheduling.
+
+### GovCon Compliance Checklist [ACTIVE] [GOVCON]
+Standard operating procedure document for NIST 800-171 preliminary compliance for sub-contractors.
+
+### Lead Extraction Node [ACTIVE] [SCRIPTS]
+Data scraping utility designed to interface with public directories to build structured B2B contact lists.
+
+### Zapier Workflow Templates [BUILD] [AI_TOOLS]
+Pre-configured automation nodes connecting CRM inputs to dispatch systems for rapid deployment.
+
+### Past Performance Matrix [ACTIVE] [GOVCON]
+Spreadsheet template for organizing commercial past performance data into GovCon-ready formats.
+
+### Military Leadership Frameworks [ACTIVE] [GOVCON]
+Battle-tested decision-making models and command structures adapted for SMB operational efficiency and team cohesion.
+
+---
+
+## Authority — Professional Profile
+
+The transition from a combat zone to the digital landscape requires a fundamental shift in tools, but not in mindset. Jonathan Shaner's authority is rooted in over seven years of military service, two combat tours to Iraq, and a Purple Heart, where operational success depended on strict adherence to protocols, clear communication, and systems designed to function under extreme stress without failure. JShaner Ventures was built to translate these exact principles into technical architecture for small businesses.
+
+Core Disciplines:
+- Operational Discipline: Standard Operating Procedures (SOPs) applied to code structure and AI deployment
+- Strategic Consulting: Military planning methodologies to identify technical bottlenecks and deploy high-impact SEO/AEO strategies
+
+---
+
+## Strategic Roadmap
+
+### Phase 01: Deployment (2005-2012)
+Operation Iraqi Freedom. US Army Airborne Infantry (11B3P). Two tours to Iraq. Purple Heart recipient — wounded in Baghdad. Foundational discipline and high-stakes problem solving in kinetic environments.
+
+### Phase 02: Engineering Foundation (2016-2020)
+Welding Engineering at Pennsylvania College of Technology. Precision fabrication, technical documentation, and applied problem-solving in industrial environments.
+
+### Phase 03: Technical Shift (2020-2023)
+From welding labs to computer labs. Self-taught software development, rapid AI tooling deployment, and the pivot from physical fabrication to digital infrastructure. Same engineering rigor, new medium.
+
+### Phase 04: Agentic Economy (2023-Present)
+Launch of JShaner Ventures. Focus on SEO/AEO and full AI Integration. Developing autonomous workflows that bridge the gap between human intent and machine execution.
+
+### Phase 05: GovCon Readiness (Soon)
+Laying foundational technical infrastructure and administrative groundwork for federal government contracting initiatives. Focus on secure, compliant agentic systems built for the public sector.
+
+---
+
+## Contact
+
+- Email: ops@jshaner.ventures
+- Intake Form: https://jshaner.ventures/contact
+- Engagement Levels: One-time Audit, Strategic Consulting, Full System Deployment
+
+## Legal
+- Privacy Policy & Terms of Service: https://jshaner.ventures/legal
+- Governing Law: Commonwealth of Pennsylvania, United States

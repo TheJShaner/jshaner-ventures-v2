@@ -1,0 +1,21 @@
+# JShaner Ventures
+> Precision AI integration, advanced search optimization, and technical blueprinting for scalable small business architecture.
+
+## About
+JShaner Ventures is a professional services firm specializing in Search Engine Optimization (SEO), Answer Engine Optimization (AEO), AI Integration, and Technical Training for small businesses. Founded by Jonathan Shaner, a US Army Airborne Infantry veteran (11B3P), Purple Heart recipient, and self-taught developer.
+
+## Pages
+- [Home](https://jshaner.ventures/) — Company overview, mission, and principal consultant bio
+- [Services](https://jshaner.ventures/services) — Technical service vectors: SEO/AEO, AI Integration, Technical Training
+- [Vault](https://jshaner.ventures/vault) — Repository of operational assets, scripts, tools, and GovCon documentation
+- [Authority](https://jshaner.ventures/authority) — Professional profile, credentials, and leadership foundation
+- [Roadmap](https://jshaner.ventures/roadmap) — Strategic trajectory from military service through GovCon readiness
+
+## Services
+- Search Optimization (SEO/AEO): Schema markup, semantic HTML, LLM-targeted content structuring
+- AI Integration: Local LLM deployment, API-driven automations, data sanitization
+- Technical Training: Prompt engineering, digital hygiene, AI tool adoption for business teams
+
+## Contact
+- Email: ops@jshaner.ventures
+- Intake Form: https://jshaner.ventures/contact

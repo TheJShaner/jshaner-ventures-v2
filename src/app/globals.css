@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #38BDF8;
+  --color-background: #0D1B2A;
+  --color-surface: #1E293B;
+  --color-grid-line: #1E3A8A;
+  --color-text-main: #F8FAFC;
+  --color-text-muted: #94A3B8;
+  --color-accent: #10B981;
+  --color-glass: rgba(13, 27, 42, 0.6);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background-color: #0D1B2A;
+  color: #F8FAFC;
+  font-family: var(--font-sans);
+}
+
+/* Blueprint Grid Overlay */
+.blueprint-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(to right, rgba(30, 58, 138, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 58, 138, 0.25) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+.blueprint-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(30, 58, 138, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 58, 138, 0.1) 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+/* Glass Panel */
+.glass-panel {
+  background-color: rgba(13, 27, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+/* Glass Card (Vault) */
+.glass-card {
+  background-color: rgba(27, 38, 59, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(58, 191, 248, 0.2);
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-card:hover {
+  border-color: #3abff8;
+  box-shadow: inset 0 0 15px rgba(58, 191, 248, 0.3);
+}
+
+/* Glow Hover */
+.glow-hover {
+  transition: all 0.3s ease;
+}
+
+.glow-hover:hover {
+  box-shadow: inset 0 0 20px rgba(56, 189, 248, 0.1);
+  border-color: #38BDF8;
+}
+
+/* Ambient Glow */
+.ambient-glow {
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.05) 0%, rgba(13, 27, 42, 0) 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* System Init Grid */
+.system-init-bg {
+  background-image:
+    linear-gradient(to right, rgba(56, 189, 248, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(56, 189, 248, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Starry Background */
+.starry-bg {
+  background-image: radial-gradient(circle at center, rgba(56, 189, 248, 0.1) 1px, transparent 1px);
+  background-size: 80px 80px;
+  background-position: 20px 20px;
+}
+
+/* Service Node Hover */
+.service-node {
+  transition: all 0.3s ease;
+}
+
+.service-node:hover {
+  border-color: #38BDF8;
+  box-shadow: inset 0 0 12px rgba(56, 189, 248, 0.1);
+}
+
+/* Terminal Block (Vault) */
+.terminal-block {
+  border: 1px solid #64748B;
+  border-radius: 0;
+  background-color: rgba(13, 27, 42, 0.8);
+}
+
+/* Executive Border (Authority) */
+.executive-border {
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+/* Timeline Line */
+.timeline-line {
+  background: linear-gradient(to bottom, transparent, rgba(34, 211, 238, 0.3) 10%, rgba(34, 211, 238, 0.3) 90%, transparent);
+}
+
+/* Node Network (Roadmap) */
+.node-network {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.15;
+  background-image: radial-gradient(circle at 2px 2px, #22D3EE 1px, transparent 0);
+  background-size: 50px 50px;
+}
+
+/* Sketch Overlay (Roadmap) */
+.sketch-overlay {
+  mask-image: linear-gradient(to bottom, black, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+  opacity: 0.15;
+}
+
+/* Nav Link Hover */
+.nav-link {
+  transition: color 0.15s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #3abff8;
+}
+
+/* Filter Button Active */
+.filter-btn.active {
+  background-color: #3abff8;
+  color: #0D1B2A;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(56, 189, 248, 0.3);
+  color: #38BDF8;
+}
