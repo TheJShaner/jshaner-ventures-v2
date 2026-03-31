@@ -15,18 +15,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jshaner.ventures"),
   title: {
     default: "JShaner Ventures",
     template: "%s | JShaner Ventures",
   },
   description:
     "Precision AI integration, advanced search optimization, and technical blueprinting for scalable small business architecture.",
+  alternates: {
+    canonical: "https://jshaner.ventures",
+  },
   openGraph: {
     title: "JShaner Ventures",
-    description: "Precision AI integration, advanced search optimization, and technical blueprinting for scalable small business architecture.",
+    description: "AI Visibility, SEO & Automation for Small Business",
     url: "https://jshaner.ventures",
     siteName: "JShaner Ventures",
     type: "website",
+    images: [
+      {
+        url: "/images/logo-main.png",
+        width: 883,
+        height: 850,
+        alt: "JShaner Ventures Logo",
+      },
+    ],
   },
 };
 

@@ -1,6 +1,12 @@
 import MaterialIcon from "@/components/MaterialIcon";
 
-export const metadata = { title: "Legal" };
+export const metadata = {
+  title: "Legal",
+  description: "Privacy policy and terms of service for JShaner Ventures.",
+  alternates: {
+    canonical: "https://jshaner.ventures/legal",
+  },
+};
 
 export default function LegalPage() {
   return (

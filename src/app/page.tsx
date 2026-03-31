@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MaterialIcon from "@/components/MaterialIcon";
 
-export const metadata = { title: "Home" };
+export const metadata = { title: "AI Visibility, SEO & Automation for Small Business" };
 
 export default function HomePage() {
   return (
@@ -50,6 +50,13 @@ export default function HomePage() {
               >
                 Access Vault
                 <MaterialIcon icon="lock_open" className="text-[18px] group-hover:text-primary" />
+              </Link>
+              <Link
+                href="/free-audit"
+                className="bg-transparent text-primary font-bold text-xs uppercase tracking-widest px-8 py-4 border border-primary/40 hover:border-primary hover:bg-primary/10 transition-all duration-300 flex items-center gap-3"
+              >
+                Request Free Audit
+                <MaterialIcon icon="search_insights" className="text-[18px]" />
               </Link>
             </div>
           </div>
