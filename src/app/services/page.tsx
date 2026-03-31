@@ -4,6 +4,9 @@ import MaterialIcon from "@/components/MaterialIcon";
 export const metadata = {
   title: "Services",
   description: "SEO/AEO optimization, AI integration, and technical training services for small businesses by JShaner Ventures.",
+  alternates: {
+    canonical: "https://jshaner.ventures/services",
+  },
 };
 
 const serviceSchema = {

@@ -5,6 +5,9 @@ import MaterialIcon from "@/components/MaterialIcon";
 export const metadata = {
   title: "Authority",
   description: "Professional profile of Jonathan Shaner — US Army Airborne Infantry veteran, Purple Heart recipient, and founder of JShaner Ventures.",
+  alternates: {
+    canonical: "https://jshaner.ventures/authority",
+  },
 };
 
 const personSchema = {

@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/vault", label: "Vault" },
   { href: "/authority", label: "Authority" },
   { href: "/roadmap", label: "Roadmap" },
+  { href: "/free-audit", label: "Free Audit" },
 ];
 
 export default function Header() {
@@ -29,13 +30,14 @@ export default function Header() {
           JShaner Ventures
         </h2>
       </Link>
-      <nav className="flex items-center gap-6 font-mono text-sm uppercase tracking-wider">
+      <nav aria-label="Main navigation" className="flex items-center gap-6 font-mono text-sm uppercase tracking-wider">
         {navLinks.map((link) => {
           const isActive = pathname === link.href;
           return (
             <Link
               key={link.href}
               href={link.href}
+              {...(isActive ? { "aria-current": "page" as const } : {})}
               className={
                 isActive
                   ? "text-primary font-medium border-b-2 border-primary py-[22px]"

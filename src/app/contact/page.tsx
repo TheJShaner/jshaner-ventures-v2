@@ -48,7 +48,7 @@ export default function ContactPage() {
         </section>
       ) : (
         <form
-          action="https://formspree.io/f/PLACEHOLDER"
+          action="https://formspree.io/f/mbdpyjly"
           method="POST"
           onSubmit={(e) => {
             e.preventDefault();
@@ -66,10 +66,11 @@ export default function ContactPage() {
           {/* Name + Email Row */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex flex-col gap-2">
-              <label className="font-mono text-xs text-primary uppercase tracking-widest">
+              <label htmlFor="contact-name" className="font-mono text-xs text-primary uppercase tracking-widest">
                 Name
               </label>
               <input
+                id="contact-name"
                 type="text"
                 name="name"
                 required
@@ -78,10 +79,11 @@ export default function ContactPage() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <label className="font-mono text-xs text-primary uppercase tracking-widest">
+              <label htmlFor="contact-email" className="font-mono text-xs text-primary uppercase tracking-widest">
                 Email
               </label>
               <input
+                id="contact-email"
                 type="email"
                 name="email"
                 required
@@ -93,10 +95,11 @@ export default function ContactPage() {
 
           {/* Objective */}
           <div className="flex flex-col gap-2">
-            <label className="font-mono text-xs text-primary uppercase tracking-widest">
+            <label htmlFor="contact-objective" className="font-mono text-xs text-primary uppercase tracking-widest">
               Objective
             </label>
             <textarea
+              id="contact-objective"
               name="objective"
               required
               rows={3}
@@ -107,10 +110,11 @@ export default function ContactPage() {
 
           {/* Current Stack */}
           <div className="flex flex-col gap-2">
-            <label className="font-mono text-xs text-primary uppercase tracking-widest">
+            <label htmlFor="contact-stack" className="font-mono text-xs text-primary uppercase tracking-widest">
               Current Stack
             </label>
             <textarea
+              id="contact-stack"
               name="current_stack"
               required
               rows={3}
@@ -122,10 +126,11 @@ export default function ContactPage() {
           {/* Engagement Level + Budget Row */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex flex-col gap-2">
-              <label className="font-mono text-xs text-primary uppercase tracking-widest">
+              <label htmlFor="contact-engagement" className="font-mono text-xs text-primary uppercase tracking-widest">
                 Engagement Level
               </label>
               <select
+                id="contact-engagement"
                 name="engagement_level"
                 required
                 defaultValue=""
@@ -140,10 +145,11 @@ export default function ContactPage() {
               </select>
             </div>
             <div className="flex flex-col gap-2">
-              <label className="font-mono text-xs text-primary uppercase tracking-widest">
+              <label htmlFor="contact-budget" className="font-mono text-xs text-primary uppercase tracking-widest">
                 Budget Bracket
               </label>
               <select
+                id="contact-budget"
                 name="budget_bracket"
                 required
                 defaultValue=""
@@ -152,11 +158,12 @@ export default function ContactPage() {
                 <option value="" disabled className="text-text-muted">
                   Select budget range
                 </option>
-                <option value="Under $1,000">Under $1,000</option>
+                <option value="Under $500">Under $500</option>
+                <option value="$500 - $1,000">$500 — $1,000</option>
                 <option value="$1,000 - $5,000">$1,000 — $5,000</option>
                 <option value="$5,000 - $15,000">$5,000 — $15,000</option>
-                <option value="$15,000 - $50,000">$15,000 — $50,000</option>
-                <option value="$50,000+">$50,000+</option>
+                <option value="$15,000 - $25,000">$15,000 — $25,000</option>
+                <option value="Over $25,000">Over $25,000</option>
               </select>
             </div>
           </div>

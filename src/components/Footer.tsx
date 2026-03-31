@@ -12,7 +12,7 @@ export default function Footer() {
         <div>SYSTEM: ONLINE</div>
       </div>
       <div>&copy; 2026 JSHANER VENTURES. ALL RIGHTS RESERVED.</div>
-      <div className="flex gap-4">
+      <nav aria-label="Footer navigation" className="flex gap-4">
         <Link href="/legal#privacy" className="hover:text-primary transition-colors">
           Privacy
         </Link>
@@ -22,7 +22,7 @@ export default function Footer() {
         <Link href="/contact" className="hover:text-primary transition-colors">
           Contact
         </Link>
-      </div>
+      </nav>
     </footer>
   );
 }
