@@ -3,8 +3,8 @@ import Image from "next/image";
 import MaterialIcon from "@/components/MaterialIcon";
 
 export const metadata = {
-  title: "Authority",
-  description: "Professional profile of Jonathan Shaner — US Army Airborne Infantry veteran, Purple Heart recipient, and founder of JShaner Ventures.",
+  title: "Authority — Jonathan Shaner Profile",
+  description: "Professional profile of Jonathan Shaner — US Army Airborne Infantry veteran, Purple Heart recipient, self-taught developer, and founder of JShaner Ventures.",
   alternates: {
     canonical: "https://jshaner.ventures/authority",
   },

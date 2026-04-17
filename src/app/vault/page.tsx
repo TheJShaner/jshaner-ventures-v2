@@ -80,6 +80,17 @@ export default function VaultPage() {
 
   return (
     <div className="py-8 px-4 md:px-10 lg:px-40 w-full max-w-[1200px] mx-auto flex flex-col gap-8">
+      {/* Page Header */}
+      <section>
+        <div className="flex items-center gap-4 mb-4">
+          <span className="font-mono text-xs text-primary tracking-[0.3em] uppercase bg-primary/10 px-2 py-1 border border-primary/20">Asset_Repository</span>
+          <div className="h-px flex-1 bg-primary/20" />
+        </div>
+        <h1 className="text-text-main text-[40px] md:text-[48px] font-mono font-medium leading-[1.1] tracking-[-0.03em]">
+          Operational <span className="text-primary">Vault.</span>
+        </h1>
+      </section>
+
       {/* AI Abstract Block */}
       <section className="terminal-block p-4 md:p-6 w-full">
         <div className="flex items-start gap-4">

@@ -3,8 +3,8 @@ import Image from "next/image";
 import MaterialIcon from "@/components/MaterialIcon";
 
 export const metadata = {
-  title: "Roadmap",
-  description: "Strategic roadmap from small business consulting to GovCon readiness — JShaner Ventures growth timeline.",
+  title: "Strategic Growth Roadmap",
+  description: "Strategic roadmap detailing JShaner Ventures' trajectory from military service and small business consulting through full GovCon contract readiness.",
   alternates: {
     canonical: "https://jshaner.ventures/roadmap",
   },

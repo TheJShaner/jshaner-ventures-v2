@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Vault",
+  title: "Operational Asset Vault",
   description:
-    "Access scripts, AI tools, and GovCon resources from the JShaner Ventures asset library.",
+    "Access AI scripts, GovCon compliance resources, and automation tools from the JShaner Ventures operational asset library. Categorized by deployment status.",
   alternates: {
     canonical: "https://jshaner.ventures/vault",
   },

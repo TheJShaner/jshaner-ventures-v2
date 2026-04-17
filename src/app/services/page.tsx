@@ -2,8 +2,8 @@ import Link from "next/link";
 import MaterialIcon from "@/components/MaterialIcon";
 
 export const metadata = {
-  title: "Services",
-  description: "SEO/AEO optimization, AI integration, and technical training services for small businesses by JShaner Ventures.",
+  title: "Technical Service Vectors",
+  description: "Search optimization, AI integration, and technical training for small businesses. Detailed service vectors, methodologies, and engagement options from JShaner Ventures.",
   alternates: {
     canonical: "https://jshaner.ventures/services",
   },

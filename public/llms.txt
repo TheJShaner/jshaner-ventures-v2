@@ -7,14 +7,19 @@ JShaner Ventures is a professional services firm specializing in Search Engine O
 ## Pages
 - [Home](https://jshaner.ventures/) — Company overview, mission, and principal consultant bio
 - [Services](https://jshaner.ventures/services) — Technical service vectors: SEO/AEO, AI Integration, Technical Training
-- [Vault](https://jshaner.ventures/vault) — Repository of operational assets, scripts, tools, and GovCon documentation
-- [Authority](https://jshaner.ventures/authority) — Professional profile, credentials, and leadership foundation
+- [Vault](https://jshaner.ventures/vault) — Operational asset repository: AI scripts, automation tools, and GovCon documentation
+- [Authority](https://jshaner.ventures/authority) — Professional profile, credentials, and leadership foundation of Jonathan Shaner
 - [Roadmap](https://jshaner.ventures/roadmap) — Strategic trajectory from military service through GovCon readiness
+- [Free Audit](https://jshaner.ventures/free-audit) — Complimentary website SEO, AI visibility, and technical architecture audit
+- [Contact](https://jshaner.ventures/contact) — Engagement intake form and direct contact channels
 
 ## Services
-- Search Optimization (SEO/AEO): Schema markup, semantic HTML, LLM-targeted content structuring
-- AI Integration: Local LLM deployment, API-driven automations, data sanitization
-- Technical Training: Prompt engineering, digital hygiene, AI tool adoption for business teams
+- Search Optimization (SEO/AEO): Schema markup, semantic HTML, LLM-targeted content structuring for machine-readable data
+- AI Integration: Local LLM deployment, API-driven automations, workflow automation, and data sanitization
+- Technical Training: Prompt engineering, digital hygiene, and AI tool adoption for business teams
+
+## Founder
+Jonathan Shaner — US Army Airborne Infantry Veteran (11B3P), two tours to Iraq, Purple Heart recipient, self-taught developer. Founder and Principal Consultant at JShaner Ventures.
 
 ## Contact
 - Email: ops@jshaner.ventures

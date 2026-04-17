@@ -1,8 +1,8 @@
 import MaterialIcon from "@/components/MaterialIcon";
 
 export const metadata = {
-  title: "Legal",
-  description: "Privacy policy and terms of service for JShaner Ventures.",
+  title: "Legal — Privacy Policy & Terms",
+  description: "Privacy policy and terms of service for JShaner Ventures — outlining data handling, usage rights, and client engagement terms for all service agreements.",
   alternates: {
     canonical: "https://jshaner.ventures/legal",
   },
