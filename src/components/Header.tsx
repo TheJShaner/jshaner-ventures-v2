@@ -17,8 +17,8 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="flex items-center justify-between whitespace-nowrap border-b border-grid-line px-6 py-3 h-[64px] bg-background/90 backdrop-blur-md sticky top-0 z-50">
-      <Link href="/" className="flex items-center gap-4 text-text-main">
+    <header className="sticky top-0 z-50 border-b border-grid-line bg-background/90 px-4 py-4 backdrop-blur-md sm:px-6 md:flex md:h-[64px] md:items-center md:justify-between md:py-3">
+      <Link href="/" className="flex min-w-0 items-center gap-3 text-text-main sm:gap-4">
         <Image
           src="/images/logo-header.png"
           alt="JShaner Ventures"
@@ -26,11 +26,14 @@ export default function Header() {
           height={40}
           style={{ width: "auto", height: "40px" }} className="object-contain"
         />
-        <h2 className="text-text-main text-lg font-bold leading-tight tracking-[-0.02em]">
+        <h2 className="text-base font-bold leading-tight tracking-[-0.02em] text-text-main sm:text-lg">
           JShaner Ventures
         </h2>
       </Link>
-      <nav aria-label="Main navigation" className="flex items-center gap-6 font-mono text-sm uppercase tracking-wider">
+      <nav
+        aria-label="Main navigation"
+        className="mt-3 flex w-full flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] uppercase tracking-wider md:mt-0 md:w-auto md:justify-end md:gap-6 md:text-sm"
+      >
         {navLinks.map((link) => {
           const isActive = pathname === link.href;
           return (
@@ -40,8 +43,8 @@ export default function Header() {
               {...(isActive ? { "aria-current": "page" as const } : {})}
               className={
                 isActive
-                  ? "text-primary font-medium border-b-2 border-primary py-[22px]"
-                  : "text-text-muted hover:text-text-main transition-colors py-[22px]"
+                  ? "whitespace-nowrap py-1 font-medium text-primary md:border-b-2 md:border-primary md:py-[22px]"
+                  : "whitespace-nowrap py-1 text-text-muted transition-colors hover:text-text-main md:py-[22px]"
               }
             >
               {link.label}

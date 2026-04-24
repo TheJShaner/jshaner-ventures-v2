@@ -7,7 +7,7 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <div className="py-10 px-6 sm:px-12 w-full max-w-4xl mx-auto flex flex-col gap-12 z-10">
+    <div className="z-10 mx-auto flex w-full max-w-4xl flex-col gap-10 px-4 py-8 sm:px-6 md:gap-12 md:px-10 md:py-10 lg:px-12">
       {/* AI Abstract Block */}
       <section className="w-full border-l-2 border-primary bg-surface/40 backdrop-blur-sm p-4 shadow-sm">
         <div className="flex items-start gap-3">
@@ -27,17 +27,17 @@ export default function ContactPage() {
           </span>
           <div className="h-px flex-1 bg-primary/20" />
         </div>
-        <h1 className="text-text-main text-[48px] md:text-[56px] font-mono font-medium leading-[1.1] tracking-[-0.03em]">
+        <h1 className="font-mono text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-text-main sm:text-5xl lg:text-[56px]">
           Initialize <span className="text-primary">Engagement.</span>
         </h1>
-        <p className="text-text-muted text-lg max-w-xl font-sans leading-relaxed mt-4">
+        <p className="mt-4 max-w-xl text-base leading-relaxed text-text-muted sm:text-lg">
           Define your objective. We&apos;ll assess fit and respond with a tactical brief.
         </p>
       </section>
 
       {/* Form */}
       {submitted ? (
-        <section className="glass-panel p-12 text-center flex flex-col items-center gap-6">
+        <section className="glass-panel flex flex-col items-center gap-6 p-6 text-center sm:p-10 md:p-12">
           <MaterialIcon icon="check_circle" className="text-accent text-5xl" />
           <h2 className="text-text-main text-2xl font-mono font-medium">
             Transmission Received.
@@ -61,7 +61,7 @@ export default function ContactPage() {
               if (res.ok) setSubmitted(true);
             });
           }}
-          className="flex flex-col gap-8"
+          className="flex flex-col gap-6 md:gap-8"
         >
           {/* Name + Email Row */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -75,7 +75,7 @@ export default function ContactPage() {
                 name="name"
                 required
                 placeholder="Full name"
-                className="bg-surface/50 border border-grid-line text-text-main font-sans text-sm px-4 py-3 focus:border-primary focus:outline-none transition-colors placeholder:text-text-muted/50"
+                className="w-full bg-surface/50 border border-grid-line px-4 py-3 font-sans text-sm text-text-main transition-colors placeholder:text-text-muted/50 focus:border-primary focus:outline-none"
               />
             </div>
             <div className="flex flex-col gap-2">
@@ -88,7 +88,7 @@ export default function ContactPage() {
                 name="email"
                 required
                 placeholder="you@company.com"
-                className="bg-surface/50 border border-grid-line text-text-main font-sans text-sm px-4 py-3 focus:border-primary focus:outline-none transition-colors placeholder:text-text-muted/50"
+                className="w-full bg-surface/50 border border-grid-line px-4 py-3 font-sans text-sm text-text-main transition-colors placeholder:text-text-muted/50 focus:border-primary focus:outline-none"
               />
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function ContactPage() {
               required
               rows={3}
               placeholder='EG: "Integrating a localized LLM to automate customer support" or "Optimizing search architecture for GovCon visibility."'
-              className="bg-surface/50 border border-grid-line text-text-main font-sans text-sm px-4 py-3 focus:border-primary focus:outline-none transition-colors placeholder:text-text-muted/50 resize-none"
+              className="w-full resize-none bg-surface/50 border border-grid-line px-4 py-3 font-sans text-sm text-text-main transition-colors placeholder:text-text-muted/50 focus:border-primary focus:outline-none"
             />
           </div>
 
@@ -119,7 +119,7 @@ export default function ContactPage() {
               required
               rows={3}
               placeholder='EG: "Currently running legacy WordPress with no AI integration" or "Migrating to a headless Next.js environment."'
-              className="bg-surface/50 border border-grid-line text-text-main font-sans text-sm px-4 py-3 focus:border-primary focus:outline-none transition-colors placeholder:text-text-muted/50 resize-none"
+              className="w-full resize-none bg-surface/50 border border-grid-line px-4 py-3 font-sans text-sm text-text-main transition-colors placeholder:text-text-muted/50 focus:border-primary focus:outline-none"
             />
           </div>
 
@@ -134,7 +134,7 @@ export default function ContactPage() {
                 name="engagement_level"
                 required
                 defaultValue=""
-                className="bg-surface/50 border border-grid-line text-text-main font-sans text-sm px-4 py-3 focus:border-primary focus:outline-none transition-colors appearance-none cursor-pointer"
+                className="w-full cursor-pointer appearance-none bg-surface/50 border border-grid-line px-4 py-3 font-sans text-sm text-text-main transition-colors focus:border-primary focus:outline-none"
               >
                 <option value="" disabled className="text-text-muted">
                   Select engagement type
@@ -153,7 +153,7 @@ export default function ContactPage() {
                 name="budget_bracket"
                 required
                 defaultValue=""
-                className="bg-surface/50 border border-grid-line text-text-main font-sans text-sm px-4 py-3 focus:border-primary focus:outline-none transition-colors appearance-none cursor-pointer"
+                className="w-full cursor-pointer appearance-none bg-surface/50 border border-grid-line px-4 py-3 font-sans text-sm text-text-main transition-colors focus:border-primary focus:outline-none"
               >
                 <option value="" disabled className="text-text-muted">
                   Select budget range
@@ -187,7 +187,7 @@ export default function ContactPage() {
         <div className="flex flex-wrap gap-6">
           <a
             href="mailto:ops@jshaner.ventures"
-            className="text-primary font-mono text-sm hover:text-text-main transition-colors flex items-center gap-2"
+            className="flex items-center gap-2 break-all font-mono text-sm text-primary transition-colors hover:text-text-main"
           >
             <MaterialIcon icon="mail" className="text-[18px]" />
             ops@jshaner.ventures
