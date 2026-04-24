@@ -27,19 +27,19 @@ const personSchema = {
 
 export default function AuthorityPage() {
   return (
-    <div className="w-full max-w-7xl mx-auto px-6 py-16">
+    <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 md:px-8 md:py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
       {/* Executive Brief Header */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20 items-end">
+      <div className="mb-16 grid grid-cols-1 items-end gap-8 lg:mb-20 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-8">
           <div className="flex items-center gap-3 text-primary mb-4">
             <span className="h-[1px] w-8 bg-primary" />
             <span className="font-mono text-xs tracking-[0.3em] uppercase">Executive Brief 01-A</span>
           </div>
-          <h1 className="text-6xl md:text-8xl font-black tracking-tighter uppercase leading-[0.9]">
+          <h1 className="text-4xl font-black leading-[0.9] tracking-tighter uppercase sm:text-5xl md:text-7xl lg:text-8xl">
             Professional<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Authority</span>
           </h1>
@@ -52,7 +52,7 @@ export default function AuthorityPage() {
       </div>
 
       {/* AI Abstract */}
-      <div className="executive-border bg-surface/30 p-8 mb-20 relative overflow-hidden group">
+      <div className="group relative mb-16 overflow-hidden executive-border bg-surface/30 p-6 md:mb-20 md:p-8">
         <div className="absolute top-0 right-0 p-4 opacity-10">
           <MaterialIcon icon="security" className="text-6xl" />
         </div>
@@ -66,9 +66,9 @@ export default function AuthorityPage() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+      <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
         {/* Left: Strategic Overview */}
-        <div className="lg:col-span-8 flex flex-col gap-24">
+        <div className="flex flex-col gap-16 lg:col-span-8 lg:gap-24">
           <section>
             <div className="flex items-center gap-4 mb-10">
               <h2 className="text-2xl font-bold uppercase tracking-tight">Leadership Foundation</h2>
@@ -81,7 +81,7 @@ export default function AuthorityPage() {
               <p>
                 Military leadership training instills a unique &apos;commander&apos;s intent&apos;—the ability to understand the ultimate goal and execute independently towards it. In technical consulting, this translates to an unwavering focus on the business objective, cutting through the &apos;fluff&apos; of marketing jargon and fragile systems to deliver robust, mission-critical solutions.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+              <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-2">
                 <div className="border-l-2 border-primary/30 pl-4">
                   <h4 className="text-text-main font-bold text-sm uppercase tracking-widest mb-2">Operational Discipline</h4>
                   <p className="text-sm text-text-muted">Standard Operating Procedures (SOPs) are not suggestions; they are the framework for scalability. I apply this rigorous approach to code structure and AI deployment.</p>
@@ -121,26 +121,26 @@ export default function AuthorityPage() {
 
               {/* Data Points */}
               <div className="space-y-4 font-mono text-xs">
-                <div className="flex justify-between items-center py-2 border-b border-[rgba(148,163,184,0.05)]">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(148,163,184,0.05)] py-2">
                   <span className="text-text-muted uppercase tracking-tighter">Status</span>
                   <span className="text-accent flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
                     Operational
                   </span>
                 </div>
-                <div className="flex justify-between items-center py-2 border-b border-[rgba(148,163,184,0.05)]">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(148,163,184,0.05)] py-2">
                   <span className="text-text-muted uppercase tracking-tighter">Foundation</span>
                   <span className="text-text-main">Military Leadership</span>
                 </div>
-                <div className="flex justify-between items-center py-2 border-b border-[rgba(148,163,184,0.05)]">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(148,163,184,0.05)] py-2">
                   <span className="text-text-muted uppercase tracking-tighter">Specialization</span>
                   <span className="text-text-main">AEO / AI Tooling</span>
                 </div>
-                <div className="flex justify-between items-center py-2 border-b border-[rgba(148,163,184,0.05)]">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(148,163,184,0.05)] py-2">
                   <span className="text-text-muted uppercase tracking-tighter">Experience</span>
                   <span className="text-text-main">7+ Years Ops</span>
                 </div>
-                <div className="flex justify-between items-center py-2 border-b border-[rgba(148,163,184,0.05)]">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[rgba(148,163,184,0.05)] py-2">
                   <span className="text-text-muted uppercase tracking-tighter">Theater</span>
                   <span className="text-text-main">Global Digital</span>
                 </div>
@@ -163,7 +163,7 @@ export default function AuthorityPage() {
       </div>
 
       {/* CTA Section */}
-      <section className="mt-24 bg-[#1B2A41] border border-[rgba(148,163,184,0.1)] p-8 md:p-12 relative overflow-hidden">
+      <section className="relative mt-20 overflow-hidden border border-[rgba(148,163,184,0.1)] bg-[#1B2A41] p-6 md:mt-24 md:p-12">
         <div className="absolute top-0 right-0 p-8 opacity-5 pointer-events-none">
           <MaterialIcon icon="terminal" className="text-9xl" />
         </div>
@@ -172,14 +172,14 @@ export default function AuthorityPage() {
             <span className="h-[1px] w-8 bg-primary" />
             <span className="font-mono text-xs tracking-[0.3em] uppercase">Deployment Status: Ready</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-black font-mono tracking-tighter uppercase mb-6">
+          <h2 className="mb-6 font-mono text-2xl font-black tracking-tighter uppercase sm:text-3xl md:text-4xl">
             Systems ready for <br /><span className="text-primary">deployment.</span>
           </h2>
           <p className="text-text-muted text-lg mb-10 leading-relaxed font-sans">
             If you&apos;re running a business and your visibility, pipeline, or automation is broken — I&apos;ll show you exactly where and how to fix it.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/contact" className="bg-primary text-background font-bold py-4 px-10 text-sm uppercase tracking-[0.2em] hover:bg-white transition-all duration-300 inline-block">
+            <Link href="/contact" className="inline-block w-full bg-primary px-10 py-4 text-center text-sm font-bold uppercase tracking-[0.2em] text-background transition-all duration-300 hover:bg-white sm:w-auto">
               [Request Audit]
             </Link>
           </div>
