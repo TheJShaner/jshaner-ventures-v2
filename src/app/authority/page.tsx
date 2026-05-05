@@ -23,6 +23,16 @@ const personSchema = {
   },
   knowsAbout: ["SEO", "Answer Engine Optimization", "AI Integration", "Technical Training", "Government Contracting"],
   description: "US Army Airborne Infantry veteran (11B3P), Purple Heart recipient, self-taught developer. Founder of JShaner Ventures specializing in SEO, AEO, and AI integration for small businesses.",
+  sameAs: [
+    "https://linkedin.com/in/jonathan-shaner",
+    "https://github.com/jshaner",
+    "https://facebook.com/TheJShaner",
+    "https://instagram.com/TheJShaner",
+    "https://medium.com/@jshaner",
+    "https://jshaner.medium.com",
+    "https://dev.to/jshaner",
+  ],
+  email: "jonathan@jshaner.ventures",
 };
 
 export default function AuthorityPage() {
@@ -149,6 +159,39 @@ export default function AuthorityPage() {
               <Link href="/contact" className="block w-full bg-text-main text-background font-bold py-4 text-xs uppercase tracking-[0.2em] hover:bg-primary transition-all duration-300 text-center">
                 Request Collaboration
               </Link>
+
+              {/* Socials */}
+              <div className="flex flex-col gap-2 font-mono text-xs border-t border-[rgba(148,163,184,0.1)] pt-4">
+                <span className="text-text-muted uppercase tracking-widest text-[10px]">Connect</span>
+                <Link href="mailto:jonathan@jshaner.ventures" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                  <MaterialIcon icon="mail" className="text-sm" />
+                  jonathan@jshaner.ventures
+                </Link>
+                <Link href="https://linkedin.com/in/jonathan-shaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                  <MaterialIcon icon="link" className="text-sm" />
+                  LinkedIn
+                </Link>
+                <Link href="https://github.com/jshaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                  <MaterialIcon icon="code" className="text-sm" />
+                  GitHub
+                </Link>
+                <Link href="https://facebook.com/TheJShaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                  <MaterialIcon icon="link" className="text-sm" />
+                  Facebook
+                </Link>
+                <Link href="https://instagram.com/TheJShaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                  <MaterialIcon icon="link" className="text-sm" />
+                  Instagram
+                </Link>
+                <Link href="https://dev.to/jshaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                  <MaterialIcon icon="code" className="text-sm" />
+                  Dev.to
+                </Link>
+                <Link href="https://medium.com/@jshaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                  <MaterialIcon icon="article" className="text-sm" />
+                  Medium
+                </Link>
+              </div>
             </div>
 
             {/* Security Badge */}
