@@ -7,13 +7,13 @@ export const metadata = { title: "AI Visibility, SEO & Automation for Small Busi
 export default function HomePage() {
   return (
     <div className="z-10 mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-8 sm:px-6 md:gap-12 md:px-10 md:py-10 lg:px-12">
-      {/* AI Abstract Block */}
+      {/* Positioning Block */}
       <section className="w-full border-l-2 border-primary bg-surface/40 backdrop-blur-sm p-4 shadow-sm">
         <div className="flex items-start gap-3">
           <MaterialIcon icon="terminal" className="text-primary text-sm mt-1" filled />
           <p className="font-mono text-sm text-text-muted leading-relaxed uppercase tracking-wider">
-            <span className="text-primary mr-2">SYS_MSG:</span>
-            JShaner Ventures operates at the intersection of traditional search architecture and emerging AI models. By mapping semantic relationships and structuring unstructured data, we build scalable digital infrastructure for small businesses. Core competencies include Answer Engine Optimization (AEO), localized generative AI tooling, and programmatic workflow automation. Execution over theory.
+            <span className="text-primary mr-2">FIELD NOTE:</span>{" "}
+            JShaner Ventures helps small businesses get found on Google, show up in AI answers, and turn messy daily work into cleaner systems. Practical SEO, AI visibility, websites, and automation. Less theory. More useful work shipped.
           </p>
         </div>
       </section>
@@ -30,18 +30,18 @@ export default function HomePage() {
               <div className="h-px flex-1 bg-primary/20" />
             </div>
             <h1 className="font-mono text-4xl font-medium leading-[1.05] tracking-[-0.03em] text-text-main sm:text-5xl lg:text-[56px]">
-              Engineered Growth <br />
-              <span className="text-primary">Infrastructure.</span>
+              AI, search, and <br />
+              <span className="text-primary">systems that work.</span>
             </h1>
             <p className="max-w-xl text-base leading-relaxed text-text-muted sm:text-lg">
-              Precision AI integration, advanced search optimization, and technical blueprinting for scalable small business architecture.
+              Veteran-built help for local businesses that need better visibility, cleaner websites, smarter follow-up, and AI tools that actually fit the way they work.
             </p>
             <div className="mt-2 flex w-full flex-col gap-3 sm:mt-4 sm:flex-row sm:flex-wrap sm:gap-4">
               <Link
                 href="/services"
                 className="flex w-full items-center justify-center gap-3 border border-primary bg-primary px-6 py-4 text-center text-xs font-bold uppercase tracking-widest text-background transition-all duration-300 hover:bg-transparent hover:text-primary sm:w-auto"
               >
-                Initialize Services
+                View Services
                 <MaterialIcon icon="arrow_forward" className="text-[18px]" />
               </Link>
               <Link
@@ -78,7 +78,7 @@ export default function HomePage() {
               <div className="absolute -bottom-2 -right-2 w-4 h-4 border-b-2 border-r-2 border-primary" />
             </div>
             <div className="font-mono text-[10px] text-primary/60 tracking-widest uppercase mt-4">
-              Node_Calibration_Complete
+              Public_Site_In_Progress
             </div>
           </div>
         </div>
@@ -93,27 +93,26 @@ export default function HomePage() {
               <MaterialIcon icon="military_tech" className="text-6xl" />
             </div>
             <h3 className="font-mono text-xs text-primary uppercase tracking-widest mb-4">
-              Operational Doctrine
+              How I work
             </h3>
             <h2 className="text-text-main text-2xl font-semibold mb-4">
-              The Military Leadership Advantage
+              Built from field experience, not agency fluff
             </h2>
             <p className="text-text-muted text-sm leading-relaxed mb-6 font-sans">
-              The firm&apos;s technical approach is forged in high-stakes environments. Jonathan Shaner&apos;s background as a{" "}
-              <strong>US Army Airborne Infantry Veteran, Purple Heart recipient</strong> dictates an objective-oriented methodology defined by:
+              Jonathan Shaner is a <strong>US Army Airborne Infantry Veteran and Purple Heart recipient</strong>. That background shows up in the work: clear objectives, straight talk, and systems built to survive contact with real business mess.
             </p>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MaterialIcon icon="check_circle" className="text-primary text-lg" />
-                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">Disciplined Architecture</span>
+                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">Clear scope before tools</span>
               </li>
               <li className="flex items-start gap-3">
                 <MaterialIcon icon="radar" className="text-primary text-lg" />
-                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">Objective-Oriented Consulting</span>
+                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">Useful fixes over buzzwords</span>
               </li>
               <li className="flex items-start gap-3">
                 <MaterialIcon icon="target" className="text-primary text-lg" />
-                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">High-Stakes Precision</span>
+                <span className="text-xs font-mono text-text-main uppercase tracking-tight pt-1">Reports a business owner can act on</span>
               </li>
             </ul>
           </div>
@@ -127,10 +126,10 @@ export default function HomePage() {
           </div>
           <div className="prose prose-invert max-w-none">
             <p className="text-text-main text-lg leading-relaxed font-sans">
-              Jonathan Shaner is a self-taught developer and veteran whose transition from battlefield leadership to digital infrastructure brings a unique rigor to technical training.
+              Jonathan Shaner is a self-taught developer and veteran building practical AI, search, and automation systems for small businesses.
             </p>
             <p className="text-text-muted text-base leading-relaxed font-sans mt-4">
-              Currently focused on pragmatic AI tooling and foundational local business empowerment, with a strategic roadmap toward future GovCon deployments. Our methodology prioritizes functional utility over vanity metrics, ensuring systems are built for resilience, scalability, and total data sovereignty.
+              The focus is simple: help owners understand where they are invisible, fix the technical gaps, and set up workflows that save time instead of adding another dashboard nobody uses.
             </p>
           </div>
           <div className="flex flex-wrap gap-3 mt-4">

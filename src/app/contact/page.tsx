@@ -160,10 +160,12 @@ export default function ContactPage() {
                 </option>
                 <option value="Under $500">Under $500</option>
                 <option value="$500 - $1,000">$500 — $1,000</option>
-                <option value="$1,000 - $5,000">$1,000 — $5,000</option>
-                <option value="$5,000 - $15,000">$5,000 — $15,000</option>
-                <option value="$15,000 - $25,000">$15,000 — $25,000</option>
-                <option value="Over $25,000">Over $25,000</option>
+                <option value="$1,000 - $3,000">$1,000 — $3,000</option>
+                <option value="$3,000 - $5,000">$3,000 — $5,000</option>
+                <option value="$5,000 - $7,500">$5,000 — $7,500</option>
+                <option value="$7,500 - $10,000">$7,500 — $10,000</option>
+                <option value="$10,000 - $12,500">$10,000 — $12,500</option>
+                <option value="Over $12,500">Over $12,500</option>
               </select>
             </div>
           </div>

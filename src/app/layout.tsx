@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     template: "%s | JShaner Ventures",
   },
   description:
-    "Precision AI integration, advanced search optimization, and technical blueprinting for scalable small business architecture.",
+    "Practical AI, SEO, websites, and automation for small businesses that need cleaner systems and better visibility.",
   alternates: {
     canonical: "https://jshaner.ventures",
   },
   openGraph: {
     title: "JShaner Ventures",
-    description: "AI Visibility, SEO & Automation for Small Business",
+    description: "Practical AI, SEO, websites, and automation for small business.",
     url: "https://jshaner.ventures",
     siteName: "JShaner Ventures",
     type: "website",
@@ -50,7 +50,7 @@ const organizationSchema = {
   "@type": "Organization",
   name: "JShaner Ventures",
   url: "https://jshaner.ventures",
-  description: "Professional services firm specializing in SEO, AEO, AI Integration, and Technical Training for small businesses.",
+  description: "Practical SEO, AI visibility, websites, automation, and training for small businesses.",
   founder: {
     "@type": "Person",
     name: "Jonathan Shaner",

@@ -3,7 +3,7 @@ import MaterialIcon from "@/components/MaterialIcon";
 
 export const metadata = {
   title: "Services & Pricing",
-  description: "SEO, AI visibility, websites, and training for small businesses. Clear pricing, no fluff. JShaner Ventures.",
+  description: "SEO, AI visibility, websites, automation, and training for small businesses. Clear pricing, practical work, no agency fluff. JShaner Ventures.",
   alternates: {
     canonical: "https://jshaner.ventures/services",
   },
@@ -14,7 +14,7 @@ const serviceSchema = {
   "@type": "ProfessionalService",
   name: "JShaner Ventures",
   url: "https://jshaner.ventures/services",
-  description: "SEO, AI visibility, website builds, and team training for small businesses.",
+  description: "SEO, AI visibility, website builds, automation, and team training for small businesses.",
   provider: {
     "@type": "Organization",
     name: "JShaner Ventures",
@@ -26,32 +26,32 @@ const serviceSchema = {
     itemListElement: [
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Signal SEO Retainer", description: "Monthly SEO and AI visibility management. $497/month." },
+        itemOffered: { "@type": "Service", name: "Signal SEO + AI Visibility", description: "Monthly SEO and AI visibility support for solo operators and local pros. $497/month." },
         priceSpecification: { "@type": "PriceSpecification", price: "497", priceCurrency: "USD", billingDuration: "P1M" },
       },
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Core SEO & AI Retainer", description: "SEO, AI visibility, citations, and automation. $797/month." },
+        itemOffered: { "@type": "Service", name: "Core SEO + AI Visibility", description: "SEO, AI visibility, citations, reporting, and quarterly automation support. $797/month." },
         priceSpecification: { "@type": "PriceSpecification", price: "797", priceCurrency: "USD", billingDuration: "P1M" },
       },
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Growth Retainer", description: "Full SEO, AEO, AI integration, and direct access. $1,497/month." },
+        itemOffered: { "@type": "Service", name: "Growth SEO + AI Systems", description: "SEO, AEO, AI visibility, content, automation, and direct access for competitive markets. $1,497/month." },
         priceSpecification: { "@type": "PriceSpecification", price: "1497", priceCurrency: "USD", billingDuration: "P1M" },
       },
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Landing Page / Funnel", description: "Single conversion-focused landing page or funnel. $297." },
-        priceSpecification: { "@type": "PriceSpecification", price: "297", priceCurrency: "USD" },
+        itemOffered: { "@type": "Service", name: "Starter Page", description: "Single conversion-focused landing page. $250 founding rate." },
+        priceSpecification: { "@type": "PriceSpecification", price: "250", priceCurrency: "USD" },
       },
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Starter Site", description: "3-5 page website with SEO foundation. $1,500." },
-        priceSpecification: { "@type": "PriceSpecification", price: "1500", priceCurrency: "USD" },
+        itemOffered: { "@type": "Service", name: "Starter Site", description: "3-5 page website with SEO foundation. $1,200 founding rate." },
+        priceSpecification: { "@type": "PriceSpecification", price: "1200", priceCurrency: "USD" },
       },
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Custom Site Build", description: "Full custom website with AI/SEO built in. Starting at $3,000." },
+        itemOffered: { "@type": "Service", name: "Custom Site Build", description: "Custom website with SEO and AI visibility built in. Starting at $3,000." },
         priceSpecification: { "@type": "PriceSpecification", price: "3000", priceCurrency: "USD" },
       },
     ],
@@ -70,7 +70,7 @@ export default function ServicesPage() {
       <div className="border-b border-grid-line/50 pb-6">
         <h1 className="text-3xl font-semibold leading-tight tracking-tight text-white sm:text-4xl">Services &amp; Pricing</h1>
         <p className="mt-2 max-w-2xl text-base text-slate-400">
-          We help small businesses show up on Google, get found by AI tools like ChatGPT and Perplexity, and build the digital foundation that keeps working without you chasing it.
+          Practical help for small businesses that need to show up on Google, get mentioned by AI tools, clean up their website, and stop losing leads in messy follow-up.
         </p>
       </div>
 
@@ -78,17 +78,17 @@ export default function ServicesPage() {
       <div className="flex items-start gap-3 border border-amber-500/30 bg-amber-500/5 px-5 py-4">
         <MaterialIcon icon="lock_clock" className="mt-0.5 flex-shrink-0 text-amber-400 text-lg" />
         <div>
-          <p className="text-sm font-semibold text-amber-400">Founding client rates — locked in at current pricing.</p>
-          <p className="text-sm text-slate-400 mt-0.5">We&apos;re early. Prices go up as the portfolio grows. Clients who get in now keep their rate.</p>
+          <p className="text-sm font-semibold text-amber-400">Founding client rates while the public portfolio is still being built.</p>
+          <p className="text-sm text-slate-400 mt-0.5">Early clients get hands-on attention and keep their rate while we prove the process in public.</p>
         </div>
       </div>
 
       {/* Free Audit */}
       <div className="flex flex-col justify-between gap-4 border border-primary/40 bg-primary/5 p-6 sm:flex-row sm:items-center">
         <div>
-          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">// start here</p>
-          <p className="text-lg font-semibold text-white">Not sure where to start? Get a free AI Visibility Audit.</p>
-          <p className="mt-1 text-sm text-slate-400">We&apos;ll show you exactly where you stand — on Google and in AI search. No strings.</p>
+          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">Start here</p>
+          <p className="text-lg font-semibold text-white">Not sure where to start? Get a free visibility audit.</p>
+          <p className="mt-1 text-sm text-slate-400">We&apos;ll check your website, Google presence, and AI search footprint, then tell you what is actually worth fixing first.</p>
         </div>
         <Link
           href="/free-audit"
@@ -102,9 +102,9 @@ export default function ServicesPage() {
       {/* Monthly Plans */}
       <section className="flex flex-col gap-6">
         <div>
-          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">// 01 — monthly plans</p>
-          <h2 className="text-2xl font-semibold text-white">SEO &amp; AI Visibility</h2>
-          <p className="mt-1 text-sm text-slate-400">Ongoing work so your business shows up on Google and inside AI-generated answers.</p>
+          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">01 — monthly plans</p>
+          <h2 className="text-2xl font-semibold text-white">SEO &amp; AI visibility</h2>
+          <p className="mt-1 text-sm text-slate-400">Ongoing cleanup, content, reporting, and AI-search prep so your business is easier to find and easier to understand.</p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -118,13 +118,13 @@ export default function ServicesPage() {
                 <span className="text-sm text-slate-400">/month</span>
               </div>
               <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-amber-400">Founding rate</p>
-              <p className="mt-2 text-sm text-slate-400">Solo businesses and local pros getting started.</p>
+              <p className="mt-2 text-sm text-slate-400">For solo businesses and local pros who need the basics handled right.</p>
             </div>
             <ul className="flex flex-col gap-2 text-sm text-slate-300">
-              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />On-page SEO + fixes</li>
+              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />On-page SEO cleanup and fixes</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Google Business Profile (4 posts/mo)</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />2 blog articles/month</li>
-              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Schema markup + llms.txt setup</li>
+              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Schema markup and llms.txt setup</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Monthly report + 30-min call</li>
             </ul>
             <Link href="/contact" className="mt-auto flex items-center justify-center gap-2 border border-primary/50 px-4 py-3 text-xs font-bold uppercase tracking-widest text-primary transition-all hover:bg-primary hover:text-background">
@@ -145,14 +145,14 @@ export default function ServicesPage() {
                 <span className="text-sm text-slate-400">/month</span>
               </div>
               <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-amber-400">Founding rate</p>
-              <p className="mt-2 text-sm text-slate-400">Established businesses ready to invest in real infrastructure.</p>
+              <p className="mt-2 text-sm text-slate-400">For established businesses that want SEO, AI visibility, and follow-up systems moving together.</p>
             </div>
             <ul className="flex flex-col gap-2 text-sm text-slate-300">
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Everything in Signal</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />5 blog articles/month</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />50–100 local citations/month</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />1 AI workflow automation/quarter</li>
-              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />AI citation tracking (ChatGPT, Perplexity, Claude)</li>
+              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />AI visibility checks across ChatGPT, Perplexity, Claude, and similar tools</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Bi-weekly strategy calls</li>
             </ul>
             <Link href="/contact" className="mt-auto flex items-center justify-center gap-2 bg-primary px-4 py-3 text-xs font-bold uppercase tracking-widest text-background transition-all hover:bg-primary/80">
@@ -170,12 +170,12 @@ export default function ServicesPage() {
                 <span className="text-sm text-slate-400">/month</span>
               </div>
               <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-amber-400">Founding rate</p>
-              <p className="mt-2 text-sm text-slate-400">Competitive markets. Full AI visibility program + automation every month.</p>
+              <p className="mt-2 text-sm text-slate-400">For competitive markets where content, visibility, and automation need steady attention.</p>
             </div>
             <ul className="flex flex-col gap-2 text-sm text-slate-300">
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Everything in Core</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />10 blog articles/month</li>
-              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Full AI citation targeting program</li>
+              <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />AI answer targeting and entity cleanup</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />1 custom AI tool or automation/month</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Direct async access (business hours)</li>
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Weekly reports + quarterly 90-min session</li>
@@ -187,16 +187,16 @@ export default function ServicesPage() {
         </div>
 
         <p className="font-mono text-xs text-text-muted">
-          Annual plans available — save ~$1,200/year. Backlink campaigns and ad spend are separate, based on your budget and goals.
+          Annual plans available. Backlink campaigns, ad spend, and paid listing fees are separate and based on your budget.
         </p>
       </section>
 
       {/* Websites */}
       <section className="flex flex-col gap-6">
         <div>
-          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">// 02 — websites</p>
-          <h2 className="text-2xl font-semibold text-white">Website Builds</h2>
-          <p className="mt-1 text-sm text-slate-400">Every build has SEO and AI visibility baked in from day one. Three levels depending on where you are.</p>
+          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">02 — websites</p>
+          <h2 className="text-2xl font-semibold text-white">Website builds</h2>
+          <p className="mt-1 text-sm text-slate-400">Clean sites with the boring but important stuff included: structure, mobile, metadata, schema, and clear calls to action.</p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -232,7 +232,7 @@ export default function ServicesPage() {
                 <span className="text-sm text-slate-400">one-time</span>
               </div>
               <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-amber-400">Founding rate</p>
-              <p className="mt-2 text-sm text-slate-400">A real website. Clean, professional, built to rank.</p>
+              <p className="mt-2 text-sm text-slate-400">A real website for businesses that need more than a one-page placeholder.</p>
             </div>
             <ul className="flex flex-col gap-2 text-sm text-slate-300">
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />3–5 pages</li>
@@ -256,7 +256,7 @@ export default function ServicesPage() {
                 <span className="text-2xl font-bold text-white">$3,000+</span>
                 <span className="text-sm text-slate-400">one-time</span>
               </div>
-              <p className="mt-2 text-sm text-slate-400">Like this site. Custom design, full AI/SEO foundation, built to last.</p>
+              <p className="mt-2 text-sm text-slate-400">Custom design, stronger structure, and a full SEO/AI visibility foundation.</p>
             </div>
             <ul className="flex flex-col gap-2 text-sm text-slate-300">
               <li className="flex items-start gap-2"><span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 bg-primary" />Custom design, 5–10+ pages</li>
@@ -277,10 +277,10 @@ export default function ServicesPage() {
         <div className="relative z-10 flex flex-col gap-6">
           <div className="flex flex-col gap-4 border-b border-grid-line/30 pb-6 md:flex-row md:items-start md:justify-between">
             <div>
-              <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">// 03 — training</p>
-              <h2 className="text-2xl font-semibold text-white">AI Training &amp; Classes</h2>
+              <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">03 — training</p>
+              <h2 className="text-2xl font-semibold text-white">AI training &amp; classes</h2>
               <p className="mt-1 text-sm text-slate-400">
-                1-on-1 sessions, small teams, or full workshops — get your team actually using AI, not just talking about it.
+                1-on-1 sessions, small teams, or workshops for people who want AI to help with real work, not just demos.
               </p>
             </div>
             <Link
@@ -305,17 +305,17 @@ export default function ServicesPage() {
               <p className="mt-1 text-sm text-slate-300">Larger groups, custom curriculum, tool builds, and rollout planning.</p>
             </div>
           </div>
-          <p className="font-mono text-xs text-text-muted">Pricing varies by format and group size. Book a consult and we&apos;ll figure out what makes sense.</p>
+          <p className="font-mono text-xs text-text-muted">Pricing varies by format and group size. Book a consult and we&apos;ll scope it without making it weird.</p>
         </div>
       </section>
 
       {/* More Services */}
       <section className="flex flex-col gap-4 border border-grid-line bg-surface/20 p-6 md:p-8">
         <div>
-          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">// 04 — everything else</p>
-          <h2 className="text-2xl font-semibold text-white">Automation, AI Reception &amp; More</h2>
+          <p className="mb-1 font-mono text-xs uppercase tracking-widest text-primary">04 — everything else</p>
+          <h2 className="text-2xl font-semibold text-white">Automation, AI reception &amp; more</h2>
           <p className="mt-2 text-sm text-slate-400 max-w-2xl">
-            Need social media management, business profile cleanup, AI-powered reception, or custom automation workflows? We do that too — pricing depends on what you need.
+            Need social media help, business profile cleanup, AI reception, lead follow-up, or custom workflows? That can be scoped as a one-time build or folded into a monthly plan.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 mt-2">
@@ -347,7 +347,7 @@ export default function ServicesPage() {
         <div>
           <p className="font-semibold text-white">90-Day Guarantee</p>
           <p className="mt-1 text-sm text-slate-400">
-            On any monthly retainer — if your AI visibility score doesn&apos;t improve within 90 days, we work an additional month free. No fine print.
+            On any monthly retainer: if your AI visibility score does not improve within 90 days, we work an additional month free. Simple as that.
           </p>
         </div>
       </div>

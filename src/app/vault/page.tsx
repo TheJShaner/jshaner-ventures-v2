@@ -92,7 +92,7 @@ export default function VaultPage() {
 
       {/* Filter Bar */}
       <section className="flex flex-wrap items-center gap-4 py-2 border-b border-surface uppercase font-mono text-sm">
-        <span className="text-text-muted tracking-widest mr-2">// FILTER_NODES:</span>
+        <span className="text-text-muted tracking-widest mr-2">FILTER_NODES:</span>
         {filters.map((filter) => (
           <button
             key={filter}
