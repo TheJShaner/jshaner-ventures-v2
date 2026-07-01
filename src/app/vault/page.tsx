@@ -80,6 +80,9 @@ export default function VaultPage() {
 
   return (
     <div className="py-8 px-4 md:px-10 lg:px-40 w-full max-w-[1200px] mx-auto flex flex-col gap-8">
+      <h1 className="font-mono text-3xl font-medium leading-[1.05] tracking-[-0.03em] text-text-main sm:text-4xl">
+        Vault
+      </h1>
       {/* AI Abstract Block */}
       <section className="terminal-block p-4 md:p-6 w-full">
         <div className="flex items-start gap-4">

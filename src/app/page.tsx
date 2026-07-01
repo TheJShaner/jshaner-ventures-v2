@@ -2,7 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import MaterialIcon from "@/components/MaterialIcon";
 
-export const metadata = { title: "AI Visibility, SEO & Automation for Small Business" };
+export const metadata = {
+  title: "AI Visibility, SEO & Automation for Small Business",
+  description:
+    "JShaner Ventures delivers SEO, AI visibility, and automation built by a veteran founder — practical work, clear pricing, no agency fluff.",
+  alternates: {
+    canonical: "https://jshaner.ventures/",
+  },
+};
 
 export default function HomePage() {
   return (
