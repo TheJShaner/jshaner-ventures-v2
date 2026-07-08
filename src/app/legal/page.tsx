@@ -23,7 +23,7 @@ export default function LegalPage() {
           Privacy &amp; Terms
         </h1>
         <p className="text-text-muted text-sm font-mono mt-2 uppercase tracking-wider">
-          Effective Date: March 2026 &mdash; JShaner Ventures LLC
+          Effective Date: March 2026 &mdash; JShaner Ventures
         </p>
       </section>
 
@@ -81,7 +81,7 @@ export default function LegalPage() {
           <div>
             <h3 className="text-text-main font-mono text-xs uppercase tracking-widest mb-2">2.2 &mdash; Intellectual Property</h3>
             <p>
-              All content, design, code, and materials on this website are the intellectual property of JShaner Ventures LLC. Deliverables produced during an engagement become the property of the client upon full payment, unless otherwise specified in a written agreement.
+              All content, design, code, and materials on this website are the intellectual property of JShaner Ventures. Deliverables produced during an engagement become the property of the client upon full payment, unless otherwise specified in a written agreement.
             </p>
           </div>
           <div>

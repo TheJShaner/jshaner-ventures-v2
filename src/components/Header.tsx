@@ -24,6 +24,7 @@ export default function Header() {
           alt="JShaner Ventures"
           width={40}
           height={40}
+          priority
           style={{ width: "auto", height: "40px" }} className="object-contain"
         />
         <h2 className="text-base font-bold leading-tight tracking-[-0.02em] text-text-main sm:text-lg">
