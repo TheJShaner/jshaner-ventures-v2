@@ -42,3 +42,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# credentials — never commit (added 2026-07-14)
+.env*
+!.env.example
+*.pem
+*.key
+jshaner-cli-*.json
+*service*account*.json
+*credentials*.json
+*client_secret*.json
+*token*.json
+
+# deny-all json — nothing .json enters git unless whitelisted (2026-07-14)
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
