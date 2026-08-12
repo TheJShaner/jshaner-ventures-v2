@@ -23,7 +23,7 @@ export default function LegalPage() {
           Privacy &amp; Terms
         </h1>
         <p className="text-text-muted text-sm font-mono mt-2 uppercase tracking-wider">
-          Effective Date: March 2026 &mdash; JShaner Ventures
+          Effective Date: August 2026 &mdash; JShaner Ventures
         </p>
       </section>
 
@@ -39,13 +39,13 @@ export default function LegalPage() {
           <div>
             <h3 className="text-text-main font-mono text-xs uppercase tracking-widest mb-2">1.1 &mdash; Data Collection</h3>
             <p>
-              JShaner Ventures collects only the information you voluntarily submit through our intake form: name, email address, project objective, current technology stack, engagement preference, and budget range. We do not use cookies for tracking, sell data to third parties, or collect information passively beyond standard server logs.
+              JShaner Ventures collects information you voluntarily submit through our intake forms, including contact details, website URL, project details, engagement preference, and budget range. This site also uses Ahrefs Web Analytics, Google Analytics, Vercel Analytics, and Vercel Speed Insights to collect website usage and performance data. We do not sell personal data.
             </p>
           </div>
           <div>
             <h3 className="text-text-main font-mono text-xs uppercase tracking-widest mb-2">1.2 &mdash; Use of Information</h3>
             <p>
-              Submitted information is used exclusively for evaluating potential engagements, responding to inquiries, and providing requested services. Your data is never shared with, sold to, or distributed to any third party without your explicit written consent.
+              Submitted information is used to evaluate potential engagements, respond to inquiries, and provide requested services. Information is disclosed to service providers only as needed to operate the website, process submissions, measure site usage, or comply with legal obligations.
             </p>
           </div>
           <div>
@@ -57,7 +57,7 @@ export default function LegalPage() {
           <div>
             <h3 className="text-text-main font-mono text-xs uppercase tracking-widest mb-2">1.4 &mdash; Third-Party Services</h3>
             <p>
-              This site is hosted on Vercel. Form processing may utilize third-party services (e.g., Formspree) solely for delivery purposes. These services are bound by their own privacy policies and do not retain your data beyond transmission.
+              This site uses Vercel for hosting, analytics, and performance monitoring; Formspree to process and store form submissions; Ahrefs Web Analytics and Google Analytics to measure site usage; and Google Fonts to deliver web fonts. Each provider processes data under its own privacy policy and retention practices.
             </p>
           </div>
         </div>
