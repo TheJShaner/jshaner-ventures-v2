@@ -2,9 +2,12 @@
 
 import { useState } from "react";
 import MaterialIcon from "@/components/MaterialIcon";
+import { submitFormspree } from "@/lib/formspree";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   return (
     <div className="z-10 mx-auto flex w-full max-w-4xl flex-col gap-10 px-4 py-8 sm:px-6 md:gap-12 md:px-10 md:py-10 lg:px-12">
@@ -50,16 +53,15 @@ export default function ContactPage() {
         <form
           action="https://formspree.io/f/mbdpyjly"
           method="POST"
-          onSubmit={(e) => {
+          onSubmit={async (e) => {
             e.preventDefault();
             const form = e.currentTarget;
-            fetch(form.action, {
-              method: "POST",
-              body: new FormData(form),
-              headers: { Accept: "application/json" },
-            }).then((res) => {
-              if (res.ok) setSubmitted(true);
-            });
+            setSubmitting(true);
+            setSubmitError("");
+            const ok = await submitFormspree(form.action, new FormData(form));
+            setSubmitting(false);
+            if (ok) setSubmitted(true);
+            else setSubmitError("Submission failed. Please try again or email ops@jshaner.ventures.");
           }}
           className="flex flex-col gap-6 md:gap-8"
         >
@@ -173,11 +175,17 @@ export default function ContactPage() {
           {/* Submit */}
           <button
             type="submit"
+            disabled={submitting}
             className="bg-primary text-background font-bold text-xs uppercase tracking-widest px-8 py-4 border border-primary hover:bg-transparent hover:text-primary transition-all duration-300 flex items-center justify-center gap-3 w-full md:w-auto md:self-start mt-4"
           >
-            Submit Intake
+            {submitting ? "Submitting…" : "Submit Intake"}
             <MaterialIcon icon="send" className="text-[18px]" />
           </button>
+          {submitError && (
+            <p role="alert" className="text-sm text-red-300">
+              {submitError}
+            </p>
+          )}
         </form>
       )}
 
