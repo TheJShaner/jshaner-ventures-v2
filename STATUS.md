@@ -6,7 +6,7 @@ _Updated: 2026-08-12 by Codex_
 **State:** Live.
 **Runs how:** `cd /Users/jshaner/HQ/DEV/ACTIVE/jshaner-ventures-v2 && npm run dev`; default Next.js local URL is `http://localhost:3000`.
 **What's done:**
-- Local `main` is two commits ahead of `origin/main` after a focused form/CSP reliability pass; nothing pushed.
+- Local `main` is three commits ahead of `origin/main` after a focused form/CSP reliability pass; nothing pushed.
 - Standard Next.js scripts exist for dev, build, start, and lint.
 - Source lives under `src/app` and `src/components`, with robots and sitemap routes present.
 - Vercel project metadata is present.
