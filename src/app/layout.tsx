@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://jshaner.ventures"),
   title: {
-    default: "JShaner Ventures",
+    default: "JShaner Ventures | SEO • AEO • AI Integration & Training",
     template: "%s | JShaner Ventures",
   },
   description:

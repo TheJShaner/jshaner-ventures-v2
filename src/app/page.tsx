@@ -3,7 +3,7 @@ import Image from "next/image";
 import MaterialIcon from "@/components/MaterialIcon";
 
 export const metadata = {
-  title: "AI Visibility, SEO & Automation for Small Business",
+  title: { absolute: "JShaner Ventures | SEO • AEO • AI Integration & Training" },
   description:
     "JShaner Ventures helps local businesses get found on Google, show up in AI answers, and stop losing leads — veteran-built, clear pricing, training included.",
   alternates: {
