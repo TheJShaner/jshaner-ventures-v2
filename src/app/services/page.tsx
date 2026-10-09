@@ -41,8 +41,8 @@ const serviceSchema = {
       },
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Starter Page", description: "Single conversion-focused landing page. $250 founding rate." },
-        priceSpecification: { "@type": "PriceSpecification", price: "250", priceCurrency: "USD" },
+        itemOffered: { "@type": "Service", name: "Starter Page", description: "Single conversion-focused landing page. $222 founding rate." },
+        priceSpecification: { "@type": "PriceSpecification", price: "222", priceCurrency: "USD" },
       },
       {
         "@type": "Offer",
@@ -221,7 +221,7 @@ export default function ServicesPage() {
               <p className="mb-2 font-mono text-xs uppercase tracking-widest text-primary">Starter Page</p>
               <p className="text-sm text-slate-500 line-through">$397</p>
               <div className="flex items-baseline gap-1">
-                <span className="text-2xl font-bold text-white">$250</span>
+                <span className="text-2xl font-bold text-white">$222</span>
                 <span className="text-sm text-slate-400">one-time</span>
               </div>
               <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-amber-400">Founding rate</p>

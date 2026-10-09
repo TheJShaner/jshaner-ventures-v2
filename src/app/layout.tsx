@@ -64,6 +64,7 @@ const organizationSchema = {
   },
   areaServed: [
     { "@type": "City", name: "Muncy, PA" },
+    { "@type": "City", name: "Montoursville, PA" },
     { "@type": "City", name: "Williamsport, PA" },
     { "@type": "AdministrativeArea", name: "Lycoming County, PA" },
     { "@type": "AdministrativeArea", name: "North Central Pennsylvania" },

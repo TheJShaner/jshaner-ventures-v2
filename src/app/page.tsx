@@ -97,7 +97,7 @@ export default function HomePage() {
               From a single landing page to a full custom build — fast, mobile-ready, and built to
               show up in search from day one.
             </p>
-            <p className="mt-auto pt-2 font-mono text-xs text-primary uppercase tracking-widest">From $250</p>
+            <p className="mt-auto pt-2 font-mono text-xs text-primary uppercase tracking-widest">From $222</p>
           </Link>
           <Link href="/services#systems" className="group flex flex-col gap-3 border border-grid-line bg-surface/30 p-6 transition-all glow-hover hover:border-primary/60">
             <MaterialIcon icon="precision_manufacturing" className="text-primary text-3xl" />
