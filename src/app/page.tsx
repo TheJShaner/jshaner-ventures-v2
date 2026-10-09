@@ -63,6 +63,7 @@ export default function HomePage() {
                   width={883}
                   height={850}
                   priority
+                  sizes="(min-width: 1024px) 320px, 1px"
                   className="w-full h-auto object-contain filter drop-shadow-[0_0_15px_rgba(56,189,248,0.3)]"
                 />
               </div>

@@ -31,7 +31,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "JShaner Ventures",
     description: "Practical AI, SEO, websites, and automation for small business.",
-    url: "https://jshaner.ventures",
     siteName: "JShaner Ventures",
     type: "website",
     images: [
@@ -47,17 +46,38 @@ export const metadata: Metadata = {
 
 const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "ProfessionalService",
+  "@id": "https://jshaner.ventures/#business",
   name: "JShaner Ventures",
   url: "https://jshaner.ventures",
+  logo: "https://jshaner.ventures/images/logo-main.png",
+  image: "https://jshaner.ventures/images/logo-main.png",
   description: "Practical SEO, AI visibility, websites, automation, and training for small businesses.",
+  telephone: "+1-570-243-1296",
+  email: "ops@jshaner.ventures",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Muncy",
+    addressRegion: "PA",
+    postalCode: "17756",
+    addressCountry: "US",
+  },
+  areaServed: [
+    { "@type": "City", name: "Muncy, PA" },
+    { "@type": "City", name: "Williamsport, PA" },
+    { "@type": "AdministrativeArea", name: "Lycoming County, PA" },
+    { "@type": "AdministrativeArea", name: "North Central Pennsylvania" },
+  ],
   founder: {
     "@type": "Person",
+    "@id": "https://jshaner.ventures/authority#jonathan",
     name: "Jonathan Shaner",
   },
+  sameAs: ["https://github.com/TheJShaner"],
   contactPoint: {
     "@type": "ContactPoint",
     email: "ops@jshaner.ventures",
+    telephone: "+1-570-243-1296",
     contactType: "sales",
   },
 };

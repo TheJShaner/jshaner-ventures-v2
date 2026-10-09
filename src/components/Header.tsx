@@ -27,9 +27,9 @@ export default function Header() {
           priority
           style={{ width: "auto", height: "40px" }} className="object-contain"
         />
-        <h2 className="text-base font-bold leading-tight tracking-[-0.02em] text-text-main sm:text-lg">
+        <span className="text-base font-bold leading-tight tracking-[-0.02em] text-text-main sm:text-lg">
           JShaner Ventures
-        </h2>
+        </span>
       </Link>
       <nav
         aria-label="Main navigation"

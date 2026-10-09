@@ -25,7 +25,7 @@ const personSchema = {
   description: "US Army Airborne Infantry veteran (11B3P), Purple Heart recipient, self-taught developer. Founder of JShaner Ventures specializing in SEO, AEO, and AI integration for small businesses.",
   sameAs: [
     "https://linkedin.com/in/jonathan-shaner",
-    "https://github.com/jshaner",
+    "https://github.com/TheJShaner",
     "https://facebook.com/TheJShaner",
     "https://instagram.com/TheJShaner",
     "https://medium.com/@jshaner",
@@ -50,7 +50,7 @@ export default function AuthorityPage() {
             <span className="font-mono text-xs tracking-[0.3em] uppercase">Executive Brief 01-A</span>
           </div>
           <h1 className="text-4xl font-black leading-[0.9] tracking-tighter uppercase sm:text-5xl md:text-7xl lg:text-8xl">
-            Professional<br />
+            Professional{" "}<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Authority</span>
           </h1>
         </div>
@@ -171,7 +171,7 @@ export default function AuthorityPage() {
                   <MaterialIcon icon="link" className="text-sm" />
                   LinkedIn
                 </Link>
-                <Link href="https://github.com/jshaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
+                <Link href="https://github.com/TheJShaner" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-text-muted hover:text-primary transition-colors">
                   <MaterialIcon icon="code" className="text-sm" />
                   GitHub
                 </Link>
