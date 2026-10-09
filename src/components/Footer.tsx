@@ -12,7 +12,7 @@ export default function Footer() {
         <div>SYSTEM: ONLINE</div>
       </div>
       <div className="max-w-xl text-center leading-relaxed">
-        JShaner Ventures · Muncy, PA 17756 · <a href="tel:+15702431296" className="hover:text-primary transition-colors">570-243-1296</a> · Serving Williamsport, Lycoming County &amp; North Central PA
+        JShaner Ventures · Muncy, PA 17756 · <a href="tel:+15702917887" className="hover:text-primary transition-colors">570-291-7887</a> · Serving Williamsport, Lycoming County &amp; North Central PA
       </div>
       <div>&copy; 2026 JSHANER VENTURES. ALL RIGHTS RESERVED.</div>
       <nav aria-label="Footer navigation" className="flex gap-4">

@@ -53,7 +53,7 @@ const organizationSchema = {
   logo: "https://jshaner.ventures/images/logo-main.png",
   image: "https://jshaner.ventures/images/logo-main.png",
   description: "Practical SEO, AI visibility, websites, automation, and training for small businesses.",
-  telephone: "+1-570-243-1296",
+  telephone: "+1-570-291-7887",
   email: "ops@jshaner.ventures",
   address: {
     "@type": "PostalAddress",
@@ -77,7 +77,7 @@ const organizationSchema = {
   contactPoint: {
     "@type": "ContactPoint",
     email: "ops@jshaner.ventures",
-    telephone: "+1-570-243-1296",
+    telephone: "+1-570-291-7887",
     contactType: "sales",
   },
 };
